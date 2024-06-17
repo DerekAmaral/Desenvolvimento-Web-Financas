@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="De Olho nas Finanças - Ferramenta online para facilitar sua vida financeira. Saiba para onde vai seu dinheiro e pare de pagar juros.">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <!-- Estilo customizado -->
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <title>De Olho nas Finanças - Finanças Pessoais</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img src="img/logo.jpg" width="400" alt="Logo De Olho nas Finanças">
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-principal">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#recursos" class="nav-link">Recursos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#beneficios" class="nav-link">Benefícios</a>
+            </li>
+            <li class="nav-item">
+              <a href="#SobreNós" class="nav-link">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="btn btn-outline-light ml-4" data-toggle="modal" data-target="#modalEntrar">Entrar</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="btn btn-outline-light ml-4" data-toggle="modal" data-target="#modalCadastrar">Cadastrar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 d-flex">
+          <div class="align-self-center">
+            <h1 class="display-4">Suas contas, descomplicadas</h1>
+            <p>
+              Usado por mais de 1 milhão de pessoas, o "De Olho nas Finanças" é uma ferramenta online inovadora projetada para simplificar a gestão financeira pessoal de maneira eficiente e intuitiva. 
+              Com o "De Olho nas Finanças", você pode categorizar todas as suas despesas e receitas, criar orçamentos personalizados e visualizar relatórios detalhados e gráficos interativos que facilitam a análise do seu comportamento financeiro ao longo do tempo. 
+              A funcionalidade de alertas e lembretes garante que você nunca mais esquecerá de pagar uma conta, evitando juros e multas desnecessárias.
+            </p>
+            <p>Disponível para
+              <a href="#" class="btn btn-outline-light ml-2 text-warning">
+                <i class="fab fa-android fa-2x"></i>
+              </a>
+              <a href="#" class="btn btn-outline-light ml-2 text-warning">
+                <i class="fab fa-apple fa-2x"></i>
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 d-none d-md-block">
+          <img src="img/capa-mulher.png" alt="O De Olho nas Finanças">
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="mt-5"></div>
+  <section id="recursos" class="caixa">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 d-flex">
+          <div class="align-self-center">
+            <h2>Recursos</h2>
+            <p>
+              Com o "De Olho nas Finanças", você pode categorizar todos os seus lançamentos financeiros de forma rápida e eficiente. 
+              A plataforma permite que você registre despesas e receitas, organizando-as em categorias personalizadas para uma melhor visualização e controle. 
+              Essa funcionalidade facilita o entendimento de seus hábitos de consumo e ajuda a identificar áreas onde você pode economizar.
+
+              Além disso, o "De Olho nas Finanças" oferece gráficos simples e intuitivos que proporcionam uma visão clara de onde seu dinheiro está vindo e para onde ele está indo. 
+              Esses gráficos são essenciais para monitorar seu fluxo de caixa e tomar decisões financeiras informadas, garantindo uma gestão mais eficaz das suas finanças pessoais.
+            </p>
+            <a href="#" id="modalRecursosBtn" class="btn btn-primary" data-toggle="modal" data-target="#modalRecursos">Veja mais</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="img/Recursos.png" class="img-fluid" alt="Gráficos de despesas">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="beneficios" class="caixa">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/juros.png" class="img-fluid" alt="Alerta de contas a pagar">
+        </div>
+        <div class="col-md-6 d-flex">
+          <div class="align-self-center">
+            <h2>Pare de pagar juros e economize</h2>
+            <p>
+              Manter as contas em dia é sempre um problema? Com o "De Olho nas Finanças", esse desafio se torna coisa do passado. 
+              Nossa ferramenta envia alertas automáticos para lembrá-lo das contas a pagar e a receber, garantindo que você nunca perca um vencimento. 
+              Esses alertas ajudam a evitar atrasos, juros e multas, proporcionando uma gestão financeira mais tranquila e organizada.
+
+              Além dos alertas de pagamento, o "De Olho nas Finanças" oferece uma visão consolidada de todas as suas obrigações financeiras, 
+              facilitando o planejamento e a priorização de suas despesas. Essa funcionalidade permite que você tenha total controle sobre suas finanças, 
+              assegurando que todas as suas contas estejam sempre em dia e você possa focar em alcançar seus objetivos financeiros.
+            </p>
+            <a href="#" id="modalBeneficiosBtn" class="btn btn-primary" data-toggle="modal" data-target="#modalBeneficios">Veja mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="SobreNós" class="caixa"></section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img src="img/facil.png" class="img-fluid" alt="Facilidade de uso">
+          <h4>Fácil de usar</h4>
+          <p>
+            O "De Olho nas Finanças" vai além do básico e oferece ferramentas incríveis para o controle financeiro, essenciais para suas finanças. Simples como deve ser!
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="img/economize.png" class="img-fluid" alt="Economize tempo">
+          <h4>Economize seu tempo</h4>
+          <p>
+            Tempo é dinheiro! Em segundos, você tem tudo sob controle e pode aproveitar seu tempo com o que realmente importa para você!
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="img/suporte.png" class="img-fluid" alt="Suporte ao cliente">
+          <h4>Suporte amigo</h4>
+          <p>
+            Dúvidas? Perguntas? Nosso suporte está aqui para ajudar você! Resolvemos seus problemas e deixamos sua vida muito mais fácil!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="mt-4 mb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <p>
+            <a href="#home">Home</a>
+            <a href="#recursos">Recursos</a>
+            <a href="#beneficios">Benefícios</a>
+            <a href="#SobreNós">Sobre Nós</a>
+          </p>
+        </div>
+        <div class="col-md-4 d-flex justify-content-end">
+          <a href="#" class="btn btn-outline-dark">
+            <i class="fab fa-facebook fa-lg"></i>
+          </a>
+          <a href="#" class="btn btn-outline-dark ml-2">
+            <i class="fab fa-twitter fa-lg"></i>
+          </a>
+          <a href="#" class="btn btn-outline-dark ml-2">
+            <i class="fab fa-instagram fa-lg"></i>
+          </a>
+          <a href="#" class="btn btn-outline-dark ml-2">
+            <i class="fab fa-youtube fa-lg"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Modal de Entrar -->
+  <div class="modal fade" id="modalEntrar" tabindex="-1" role="dialog" aria-labelledby="modalEntrarLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalEntrarLabel">Entrar</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="formEntrar">
+            <div class="form-group">
+              <label for="inputEmail">Email</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="Seu email">
+            </div>
+            <div class="form-group">
+              <label for="inputSenha">Senha</label>
+              <input type="password" class="form-control" id="inputSenha" placeholder="Sua senha">
+            </div>
+            <button type="submit" class="btn btn-primary">Entrar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal de Cadastrar -->
+  <div class="modal fade" id="modalCadastrar" tabindex="-1" role="dialog" aria-labelledby="modalCadastrarLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalCadastrarLabel">Cadastrar</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="formCadastrar">
+            <div class="form-group">
+              <label for="inputNome">Nome</label>
+              <input type="text" class="form-control" id="inputNome" placeholder="Seu nome">
+            </div>
+            <div class="form-group">
+              <label for="inputEmailCadastro">Email</label>
+              <input type="email" class="form-control" id="inputEmailCadastro" placeholder="Seu email">
+            </div>
+            <div class="form-group">
+              <label for="inputSenhaCadastro">Senha</label>
+              <input type="password" class="form-control" id="inputSenhaCadastro" placeholder="Sua senha">
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal de Recursos -->
+  <div class="modal fade" id="modalRecursos" tabindex="-1" role="dialog" aria-labelledby="modalRecursosLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalRecursosLabel">Recursos</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+          <p>
+          Gestão de Orçamento: Permite aos usuários criar e gerenciar orçamentos mensais ou semanais, categorizando receitas e despesas para acompanhar quanto estão ganhando e gastando em diferentes áreas da vida financeira.
+
+          Registro de Despesas e Receitas: Capacidade de inserir e categorizar transações financeiras, como despesas fixas (aluguel, contas de serviços públicos, etc.), despesas variáveis (alimentação, transporte, etc.) e receitas (salários, ganhos adicionais, etc.).
+      
+          Alertas e Lembretes: Notificações para pagamentos de contas próximos do vencimento, cobranças recorrentes, datas importantes financeiramente (impostos, por exemplo) ou metas de economia.
+      
+          Análise de Dados e Relatórios: Geração de relatórios e gráficos que visualizam o histórico de gastos e receitas ao longo do tempo, permitindo uma análise mais profunda das tendências financeiras pessoais.
+      
+          Metas de Economia: Estabelecimento de objetivos de economia de curto e longo prazo, com acompanhamento do progresso e insights sobre como alcançar essas metas.
+      
+          Integração Bancária: Conexão com contas bancárias para sincronização automática de transações, o que facilita o registro e a categorização de despesas e receitas.
+      
+          Segurança e Backup: Recursos de segurança robustos para proteger informações financeiras sensíveis, como criptografia de dados e opções de backup para evitar perda de dados.
+      
+          Planejamento Financeiro: Ferramentas para simulação de cenários financeiros, planejamento de aposentadoria, cálculos de empréstimos e hipotecas, entre outros aspectos financeiros complexos.
+    
+          Compatibilidade Multiplataforma: Disponibilidade do aplicativo em diferentes dispositivos (smartphones, tablets, computadores), com sincronização de dados para acesso em qualquer lugar.
+      
+          Suporte ao Cliente: Canais de suporte ao usuário, como chat ao vivo, FAQs, tutoriais, e-mails de suporte, para ajudar os usuários a resolver problemas e maximizar o uso do aplicativo.
+          <p>
+            
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal de Benefícios -->
+  <div class="modal fade" id="modalBeneficios" tabindex="-1" role="dialog" aria-labelledby="modalBeneficiosLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalBeneficiosLabel">Benefícios</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+         
+          <p>
+          Organização Financeira: Ajuda os usuários a manterem suas finanças organizadas, categorizando despesas e receitas de forma clara e acessível.
+
+          Controle de Gastos: Permite o rastreamento detalhado dos gastos diários, mensais e anuais, proporcionando insights sobre onde o dinheiro está sendo gasto.
+      
+          Planejamento Financeiro: Facilita o planejamento de metas financeiras de curto, médio e longo prazo, como economizar para uma viagem, comprar um carro ou até mesmo para a aposentadoria.
+      
+          Alertas e Lembretes: Envia alertas automáticos para vencimentos de contas, ajudando os usuários a evitarem atrasos e consequentes multas.
+      
+          Análise de Desempenho: Oferece gráficos e relatórios detalhados para análise do desempenho financeiro ao longo do tempo, permitindo ajustes e melhorias no plano financeiro pessoal.
+      
+          Segurança e Privacidade: Protege informações financeiras sensíveis com medidas de segurança avançadas, garantindo a confidencialidade dos dados dos usuários.
+      
+          Facilidade de Uso: Interface intuitiva e funcionalidades simples, projetadas para facilitar o uso por usuários de diferentes níveis de habilidade técnica.<p>
+            
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de Suporte -->
+  <div class="modal fade" id="modalSuporte" tabindex="-1" role="dialog" aria-labelledby="modalSuporteLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalSuporteLabel">Fale Conosco</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="formSuporte">
+            <div class="form-group">
+              <label for="inputSuporteEmail">Seu email</label>
+              <input type="email" class="form-control" id="inputSuporteEmail" placeholder="Seu email">
+            </div>
+            <div class="form-group">
+              <label for="inputSuporteMensagem">Sua mensagem</label>
+              <textarea class="form-control" id="inputSuporteMensagem" placeholder="Sua mensagem"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
+ 
